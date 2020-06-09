@@ -2,7 +2,7 @@ import urllib
 import requests
 from bs4 import BeautifulSoup
 
-query = input() + " site:ifb.edu.br"
+query = input() + " site:ifb.edu.br" #site exemplo
 query = query.replace(' ', '+')
 URL = f"https://google.com/search?q={query}"
 
